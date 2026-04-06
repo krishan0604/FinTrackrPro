@@ -198,10 +198,10 @@ const EicDashboardPage = () => {
                   <ZAxis type="number" dataKey="z" range={[20, 100]} />
                   <Tooltip cursor={{strokeDasharray: '3 3'}} contentStyle={{fontSize: '12px'}} />
                   <Scatter name="Claims" data={scatterData} fill="#333" />
-                  {/* The red shade background from the image */}
-                  <div className="absolute inset-x-8 top-8 bottom-8 bg-pink-100 opacity-50 z-0 border-b-2 border-red-300 pointer-events-none"></div>
                 </ScatterChart>
               </ResponsiveContainer>
+              {/* The red shade background from the image */}
+              <div className="absolute inset-x-8 top-8 bottom-8 bg-pink-100 opacity-50 z-0 border-b-2 border-red-300 pointer-events-none"></div>
             </div>
           </div>
         </div>
