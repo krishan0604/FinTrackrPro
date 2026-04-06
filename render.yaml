@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: fintrackr-backend
+    env: docker
+    plan: free
+    branch: main
+    repo: https://github.com/krishan0604/FinTrackrPro
+    rootDir: backend
+    envVars:
+      - key: SPRING_DATASOURCE_URL
+        value: jdbc:mysql://YOUR_DB_HOST:3306/finance_db
+      - key: SPRING_DATASOURCE_USERNAME
+        value: root
+      - key: SPRING_DATASOURCE_PASSWORD
+        value: secret
+      - key: JWT_SECRET
+        value: 9a4f2c8d3b7a1e6f45c8a0b3f267d8b1d4e6f3c8a9d2b5f8e3a9c8b5f6v8a3d9
