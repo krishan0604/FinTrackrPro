@@ -1,6 +1,6 @@
 import { NavLink, Outlet, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
-import { LayoutDashboard, Receipt, Users, LogOut, Menu, X } from 'lucide-react';
+import { LayoutDashboard, Receipt, Users, LogOut, Menu, X, BarChart3 } from 'lucide-react';
 import { useState } from 'react';
 import Badge from './Badge';
 
@@ -16,6 +16,7 @@ const Layout = () => {
 
   const navLinks = [
     { to: '/dashboard', label: 'Dashboard', icon: LayoutDashboard },
+    { to: '/eic-dashboard', label: 'EIC Stats', icon: BarChart3 },
     { to: '/records', label: 'Records', icon: Receipt },
   ];
 
