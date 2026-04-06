@@ -62,6 +62,10 @@ public class DataSeeder implements CommandLineRunner {
 
             recordRepository.saveAll(records);
             System.out.println("Seed data initialized.");
+        } else if (!userRepository.existsByEmail("viewer@finance.com")) {
+            User viewer = new User("Viewer User", "viewer@finance.com", passwordEncoder.encode("viewer123"), Role.VIEWER, UserStatus.ACTIVE);
+            userRepository.save(viewer);
+            System.out.println("Viewer user appended to existing data.");
         }
     }
 }
