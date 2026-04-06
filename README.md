@@ -10,6 +10,13 @@
 
 A modern, full-stack Finance Data Processing and Access Control Dashboard built for speed and precision.
 
+## ✨ One-Click Deploy
+
+Easily deploy the Frontend to Vercel and the Backend to Render in a single click:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fkrishan0604%2FFinTrackrPro&project-name=fintrackr-frontend&framework=vite&root-directory=frontend)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/krishan0604/FinTrackrPro)
+
 ## 🚀 Tech Stack
 
 **Backend:**
