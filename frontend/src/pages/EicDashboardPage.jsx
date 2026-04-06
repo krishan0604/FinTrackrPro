@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { 
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, 
-  AreaChart, Area, ScatterChart, Scatter, ZAxis, PieChart, Pie, Cell, Treemap
+  AreaChart, Area, ScatterChart, Scatter, ZAxis, PieChart, Pie, Cell, Treemap, Legend
 } from 'recharts';
 import { Car, FolderOpen, FileText, CheckCircle, ShieldAlert, BarChart3, ChevronRight, LogOut } from 'lucide-react';
 import { Link } from 'react-router-dom';
